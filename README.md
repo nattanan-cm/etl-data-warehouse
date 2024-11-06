@@ -57,7 +57,7 @@ Before starting, make sure your environment meets the following requirements:
 5. **Data for Testing**
    
    - Prepare some sample CSV files (or use provided sample data) to test the ETL pipeline.
-   - You can find example CSV files in the ./examples/ directory.
+   - You can find example CSV files in the `examples/` directory.
 
 ## Installation Steps
 
