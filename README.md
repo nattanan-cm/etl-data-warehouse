@@ -39,7 +39,21 @@ Before starting, make sure your environment meets the following requirements:
      _PIP_ADDITIONAL_REQUIREMENTS=minio requests pandas numpy apache-airflow-providers-amazon apache-airflow-providers-postgres
      ```
 
-4. **Data for Testing**
+   - Setup a Python Virtual Environment
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate  # For Linux/Mac
+     venv\Scripts\activate     # For Windows
+     ```
+
+4. **Install Dependencies**
+   - Use `pip` to install the required packages listed in `requirements.txt`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. **Data for Testing**
    
    - Prepare some sample CSV files (or use provided sample data) to test the ETL pipeline.
    - You can find example CSV files in the ./examples/ directory.
