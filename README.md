@@ -33,9 +33,9 @@ Before starting, make sure your environment meets the following requirements:
 
      ```plaintext
      AIRFLOW_UID=<AIRFLOW_UID>
-     MINIO_ACCESS=<MINIO_ACCESS>
-     MINIO_SECRET=<MINIO_SECRET>
-     MINIO_ENDPOINT=<MINIO_ENDPOINT>
+     MINIO_ACCESS=minioadmin
+     MINIO_SECRET=miniopwd
+     MINIO_ENDPOINT=minio:9000
      _PIP_ADDITIONAL_REQUIREMENTS=minio requests pandas numpy apache-airflow-providers-amazon apache-airflow-providers-postgres
      ```
 
