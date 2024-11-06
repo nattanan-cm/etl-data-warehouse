@@ -40,6 +40,7 @@ Before starting, make sure your environment meets the following requirements:
      ```
 
    - Setup a Python Virtual Environment
+     
      ```bash
      python3 -m venv venv
      source venv/bin/activate  # For Linux/Mac
